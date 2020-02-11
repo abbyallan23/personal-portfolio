@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+
+body {
+    font-size: 2rem;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-right: 2em;
+}
+
+.nav-list a{
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+a {
+    text-decoration: none;
+    color: pink;
+}
+
+#welcome-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+
+}
+
+#project-list {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+figcaption{
+    text-align: center;
+}
