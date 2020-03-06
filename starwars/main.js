@@ -5,7 +5,7 @@ import { species } from '../data/species.js'
 import { planets } from '../data/planets.js'
 
 
-const greetingDiv = document.querySelector(".greeting")
+const gallery = document.querySelector(".gallery")
 const maleButton = document.querySelector('#maleButton')
 const femaleButton = document.querySelector('#femaleButton')
 const otherButton = document.querySelector('#otherButton')
@@ -71,7 +71,7 @@ let charNum = getCharNumber(person.url)
     })
 
     anchorWrap.appendChild(imageItem)
-    greetingDiv.appendChild(anchorWrap)
+    gallery.appendChild(anchorWrap)
     //counter++
 
 })
