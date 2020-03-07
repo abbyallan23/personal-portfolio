@@ -45,7 +45,6 @@ function getCharNumber(url) {
 
 }
 
-//getCharNumber("https://swapi.co/api/people/1/")
 
 
 function populateDOM(maleCharacters) {
