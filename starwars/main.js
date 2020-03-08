@@ -52,8 +52,9 @@ function removeChildren(element) {
 }
 
 
-function populateDOM(maleCharacters) {
-    maleCharacters.forEach(person => {
+function populateDOM(characters) {
+    removeChildren(gallery)
+    characters.forEach(person => {
         //need to extract number from person.url property
 let charNum = getCharNumber(person.url)
 
