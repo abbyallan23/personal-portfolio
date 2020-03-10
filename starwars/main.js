@@ -1,7 +1,6 @@
-import { films } from '../data/films.js'
 import { people } from '../data/people.js'
 import { species } from '../data/species.js'
-import { planets } from '../data/planets.js'
+import {getLastNumber} from 'utils.js'
 
 
 const gallery = document.querySelector(".gallery")
@@ -34,28 +33,12 @@ otherButton.addEventListener("click", (event) => {
     populateDOM(otherCharacters)
 })
 
-function getCharNumber(url) {
-    let end = url.lastIndexOf('/')
-    let start = end - 2
-    if(url.charAt(start) === '/') {
-        start++
-    }
-    return url.slice(start, end)
-
-}
-
-function removeChildren(element) {
-    while (element.firstChild) {
-        element.removeChild(element.firstChild);
-    }
-}
-
 
 function populateDOM(characters) {
     removeChildren(gallery)
     characters.forEach(person => {
         //need to extract number from person.url property
-let charNum = getCharNumber(person.url)
+let charNum = getLastNumber(person.url)
 
     let anchorWrap = document.createElement("a")
     anchorWrap.href = "#"
