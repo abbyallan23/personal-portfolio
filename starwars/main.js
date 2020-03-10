@@ -1,6 +1,5 @@
 import { films } from '../data/films.js'
 import { people } from '../data/people.js'
-import { starships } from '../data/starships.js'
 import { species } from '../data/species.js'
 import { planets } from '../data/planets.js'
 
