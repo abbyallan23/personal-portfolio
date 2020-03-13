@@ -1,6 +1,7 @@
 import { people } from '../data/people.js'
 import { species } from '../data/species.js'
-import {getLastNumber} from 'utils.js'
+import {getLastNumber} from '../utils.js'
+import {removeChildren} from '../utils.js'
 
 
 const gallery = document.querySelector(".gallery")
