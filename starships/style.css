@@ -5,6 +5,7 @@
 header, footer {
     display: flex;
     justify-content: center;
+    font-size: 2rem;
     
 }
 
@@ -24,8 +25,4 @@ li {
 .nav {
     border: solid 2px black;
     padding-right: 2rem;
-}
-
-.main {
-
 }
