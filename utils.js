@@ -30,8 +30,8 @@ export function addStarField(element, numStars) {
 }
 
 function getRandomPosition(){
-    let y = window.innerHeight
-    let x = window.innerWidth
+    let y = 1400
+    let x = 2000
     let randomY = Math.floor(Math.random() * y)
     let randomX = Math.floor(Math.random() * x)
     return [randomX, randomY]

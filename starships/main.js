@@ -63,4 +63,4 @@ function populateShipView(shipData) {
 
 populateNav(starships)
 
-addStarField(shipView, 100)
+addStarField(document.querySelector('body'), 700)
