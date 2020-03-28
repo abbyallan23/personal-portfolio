@@ -1,10 +1,4 @@
 export const senators = [
-      {
-          "congress": "116",
-          "chamber": "Senate",
-          "num_results": 100,
-          "offset": 0,
-          "members": [
               {
                   "id": "A000360",
                   "title": "Senator, 2nd Class",
@@ -4606,5 +4600,3 @@ export const senators = [
                   "votes_with_party_pct": 95.12
               }
           ]
-      }
-  ]
