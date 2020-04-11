@@ -1,19 +1,3 @@
-/* const allPokemon = []
-function getPokeData(url) {
-  fetch(url).then(function (response) {
-    response.json().then(function (pokeData) {
-      console.log(pokeData.results)
-      const pokeMap = pokeData.results.map(pokemon => {
-        return fetch(pokemon.url).then(resData => {
-          resData.json().then(pokeJson => {
-            allPokemon.push(pokeJson)
-          })
-          
-        })
-      })
-    })
-  })
-} */
 
 // Reusable async function to fetch data from the provided url
 async function getAPIData(url) {
