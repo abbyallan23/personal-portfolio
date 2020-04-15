@@ -2,18 +2,42 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
 }
+
+#startButton {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 1rem;
+  background-color: #ebffe6;
+  height: 50px;
+  width: 500px;
+  margin-bottom: 1rem;
+}
+
+#newButton {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1rem;
+    background-color: #ebffe6;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 2rem;
+  }
+
 
 .pokemonGrid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  
 }
 
 .scene {
   width: 200px;
-  height: 260px;
-  border: 1px solid #CCC;
+  height: 230px;
   margin: 10px;
   perspective: 600px;
   border-radius: 30px;
@@ -35,23 +59,28 @@ header {
 .card__face {
   position: absolute;
   width: 100%;
-  height: 100%;
-  color: white;
+  height: 90%;
+  color: black;
   text-align: center;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
   backface-visibility: hidden;
   border-radius: 30px;
+  padding-top: 2rem;
 }
 
+
+
 .card__face--front {
-  background: red;
+  background:#ffdecc;
 }
 
 .card__face--back {
-  background: blue;
+  background:#ebffe6;
   transform: rotateY(180deg);
 }
 
 li {
   text-align: left;
+  font-size: 1.5rem;
 }
