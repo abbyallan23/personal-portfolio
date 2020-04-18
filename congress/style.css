@@ -1,5 +1,26 @@
+header {
+    text-align: center;
+}
+
 .senators{
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
+}
+
+figCaption {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-democrat {
+    color: blue;
+}
+
+.fa-republican {
+    color: red;
+}
+
+.fa-star {
+    color: yellow;
 }

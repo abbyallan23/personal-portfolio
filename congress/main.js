@@ -23,11 +23,14 @@ function populateSenatorDiv(simpleSenators) {
 
         let senFigure = document.createElement('figure')
         let figImg = document.createElement('img')
-        let figCaption = document.createElement('figCaption')
+        let figCaption = document.createElement('figcaption')
+        let partyIcon = document.createElement('i')
+        partyIcon.className = 'fas fa-democrat'
 
         figImg.src = senator.imgURL
         figCaption.textContent = senator.name
 
+        figCaption.appendChild(partyIcon)
         senFigure.appendChild(figImg)
         senFigure.appendChild(figCaption)
         senatorDiv.appendChild(senFigure)
