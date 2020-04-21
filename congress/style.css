@@ -1,20 +1,33 @@
+body {
+    background-color: 
+}
+
 header {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 1rem;
 }
 
-body {
-    background-color: lightgray
-}
-
-.senators{
+.senatorGrid {
     display: flex;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding-left: 5rem;
 }
 
-figCaption {
+div {
+    padding: .5rem;
+}
+
+figure {
+    margin-bottom: 2rem;
+}
+
+figcaption {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
 
 .fa-democrat {
@@ -27,4 +40,14 @@ figCaption {
 
 .fa-star {
     color: yellow;
+}
+
+.progressDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: .75rem;
+    font-family: 'Poppins', sans-serif;
 }
