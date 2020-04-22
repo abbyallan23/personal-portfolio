@@ -97,23 +97,23 @@ class Pokemon {
 }
 
 function addPokemon() {
-  let Thoremon = new Pokemon(190, 290, 'thoremon',
+  let abzter = new Pokemon(190, 290, 'abzter',
     [
       {
         ability: {
-        name: 'Thunder Belly'
+        name: 'invisiblity'
         }
       },
       {
         ability: {
-        name: 'Beard Power'
+        name: 'procrastination'
         }
       },
       {
         ability: {
-        name: 'Rancid Stench'
+        name: 'killer dance moves'
         }
       }
   ])
-  populatePokeCard(Thoremon)
+  populatePokeCard(abzter)
 }
