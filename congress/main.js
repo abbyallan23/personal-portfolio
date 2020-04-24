@@ -1,7 +1,13 @@
 import {senators} from '../data/senators.js'
 import {representatives} from '../data/representatives.js'
+import { removeChildren } from '../utils.js'
 
 const senatorGrid = document.querySelector('.senatorGrid')
+const seniorityButton= document.querySelector('#seniorityButton')
+
+seniorityButton.addEventListener('click', () => {
+    removeChildren(senatorGrid)
+})
 
 function getSimplifiedSenators(senatorArray) {
     return senatorArray.map(senator => {
@@ -99,5 +105,13 @@ const mostLoyal = getSimplifiedSenators(republicans).reduce((acc, senator) => {
 
 //console.log(loyalArray)
 
+
+//console.log(mostSeniority.seniority)
+
+const sortedSenators = getSimplifiedSenators(senators).sort(function (a,b){
+    return parseInt(a.seniority) - parseInt(b.seniority)
+})
+
 populateSenatorDiv(getSimplifiedSenators(senators))
-console.log(mostSeniority.seniority)
+
+
