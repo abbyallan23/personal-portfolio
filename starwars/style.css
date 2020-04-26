@@ -1,20 +1,20 @@
+
 :root {
     box-sizing: border-box;
 }
 
 
-h1{
-    font-size: 3rem;
+header{
+    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
 body {
-    background-color: #ebffe6;
+    background-color: #e6ffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 5rem;
 }
 
 a > img {
@@ -23,10 +23,35 @@ a > img {
 
 }
 
-button {
-    font-size: 2rem;
-    background-color: #ffdecc;
-    border-radius: 10px;
-    padding: 10px;
+#maleButton {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1rem;
+    background-color:#ebffe6;
+    height: 50px;
+    width: 500px;
     margin-bottom: 1rem;
+    color: black;
+}
+
+#femaleButton {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1rem;
+    background-color: #ebffe6;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+#otherButton {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1rem;
+    background-color: #ebffe6;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 1rem;
+    color: black;
 }

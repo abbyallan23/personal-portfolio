@@ -1,14 +1,14 @@
 body{
-    background-color: #ebffe6
+    background-color: #e6ffff;
 }
 
-header {
-    text-align: center;
+header{
+    font-size: 4rem;
     font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
-    padding-bottom: 1rem;
+    text-align: center;
     color: black;
 }
+
 
 .senatorGrid {
     display: flex;
@@ -24,7 +24,7 @@ div {
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     border-radius: 1rem;
-    background-color: #ffdecc;
+    background-color: #ebffe6;
     height: 50px;
     width: 500px;
     margin-bottom: 1rem;
@@ -35,7 +35,7 @@ div {
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     border-radius: 1rem;
-    background-color: #ffdecc;
+    background-color: #ebffe6;
     height: 50px;
     width: 500px;
     margin-bottom: 1rem;

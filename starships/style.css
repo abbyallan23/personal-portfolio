@@ -1,3 +1,7 @@
+body{
+    background-color: #e6ffff;
+}
+
 :root {
     box-sizing: border-box;
 }
@@ -5,14 +9,19 @@
 header{
     display: flex;
     justify-content: center;
-    font-size: 3rem;
-    color: white;
+    color: #e6ffff;
     padding-bottom: 3rem;
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
 }
 
 main {
     padding: 3rem;
+}
+
+img {
+    border: solid 15px #e6ffff;
+    border-radius: 1rem;
 }
 
 a {
@@ -22,7 +31,7 @@ a {
 
 li {
     list-style-type: none;
-    color: white;
+    color:black;
     font-family: 'Poppins', sans-serif; 
 }
 
@@ -31,15 +40,17 @@ li {
 }
 
 .nav {
-    border: solid 1px white;
+    border: solid 1px #ebffe6;
     padding-right: 2rem;
     padding-left: 1rem;
+    border-radius: 1rem;
+    background-color: #e6ffff;
 }
 
 footer{
     display: flex;
     justify-content: center;
     font-size: 1rem;
-    color: white;
+    color: #ebffe6;
     font-family: 'Poppins', sans-serif; 
 }
