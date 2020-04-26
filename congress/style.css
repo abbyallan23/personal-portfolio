@@ -1,10 +1,13 @@
-
+body{
+    background-color: #ebffe6
+}
 
 header {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     padding-bottom: 1rem;
+    color: black;
 }
 
 .senatorGrid {
@@ -17,6 +20,28 @@ div {
     padding: .5rem;
 }
 
+#ageButton {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1rem;
+    background-color: #ffdecc;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+#seniorityButton {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1rem;
+    background-color: #ffdecc;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 1rem;
+    color: black;
+}
+
 figure {
     margin-bottom: 2rem;
 }
@@ -26,14 +51,15 @@ figcaption {
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    color: black;
 }
 
 .fa-democrat {
-    color: blue;
+    color: blueviolet;
 }
 
 .fa-republican {
-    color: red;
+    color: hotpink;
 }
 
 .fa-star {
@@ -48,4 +74,6 @@ figcaption {
 label {
     font-size: .75rem;
     font-family: 'Poppins', sans-serif;
+    color: black;
+
 }
