@@ -106,7 +106,7 @@ function addPokemon() {
       },
       {
         ability: {
-        name: 'procrastination'
+        name: 'hungry'
         }
       },
       {
