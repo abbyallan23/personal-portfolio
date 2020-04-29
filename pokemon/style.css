@@ -30,6 +30,14 @@ header {
     margin-bottom: 2rem;
   }
 
+  #startButton:hover {
+    background: #ffdecc;
+}
+
+#newButton:hover {
+  background: #ffdecc;
+}
+
 
 .pokemonGrid {
   display: flex;

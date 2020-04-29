@@ -42,6 +42,15 @@ div {
     color: black;
 }
 
+#ageButton:hover {
+    background: #ffdecc;
+}
+
+#seniorityButton:hover {
+    background: #ffdecc;
+}
+
+
 figure {
     margin-bottom: 2rem;
 }
